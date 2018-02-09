@@ -10,5 +10,21 @@ public class SongsInfo {
     public SongsInfo(){
     }
 
+    public SongsInfo(String songName, String artistName, String songUrl) {
+        SongName = songName;
+        ArtistName = artistName;
+        SongUrl = songUrl;
+    }
 
+    public String getSongName() {
+        return SongName;
+    }
+
+    public String getArtistName() {
+        return ArtistName;
+    }
+
+    public String getSongUrl() {
+        return SongUrl;
+    }
 }

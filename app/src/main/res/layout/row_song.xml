@@ -9,6 +9,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="20dp"
+            android:background="#fff"
             android:orientation="horizontal">
 
             <LinearLayout
@@ -23,6 +24,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textSize="20sp"
+                    android:layout_weight="1"
+                    android:textColor="#2b2727"
                     android:text="Shape Of You" />
 
                 <TextView
